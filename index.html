@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>ЮЖ</title>
+    <link rel="icon" href="./IMG_1356.png" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+   <div class="block-title">на связи</div>
+    <img src="file:///Users/konsta_uu/Desktop/newcv-main/555.jpg" height="300px" height="300px">
+    <div class="name">Юлия</div>
+    <div class="name">Жукова</div>
+
+    <div class="block">
+      <div class="block-title">социальные сети</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/konsta_u" target="_blank">Telegram</a>
+        </div>
+        <div class="entry">
+          <a href="./87.jpeg" target="_blank">Whats App</a>
+        </div>
+        <div class="entry">
+          <a href="https://www.instagram.com/konsta_uu?igsh=MXM3Mzk0ejQ3cTQwMg%3D%3D&utm_source=qr"> instagram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:konst.08@mail.ru">почта</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">любимые занятия</div>
+      <div class="entry">
+        <a href="https://habr.com/ru/feed/" target="_blank"> читать полезности на habr </a>
+      </div>
+      <div class="entry">
+        <a
+          href="https://heisenbug.ru/"
+          target="_blank"> смотреть конференции на heisenbug </a>
+      </div>
+      <div class="entry">
+        <a href="https://www.youtube.com/@Wylsacom" target="_blank">перекусывать с wylsacom</a>
+      </div>
+      <div class="entry">
+        <a
+          href="https://giphy.com/search/cat"
+          target="_blank"> смотреть на этих пирожочков </a>
+      </div>
+    </div>
+  </body>
+</html>
